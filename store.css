@@ -1,0 +1,141 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fff;
+  color: #000;
+}
+.fnav{
+	display: flex;
+	/* justify-content: center; */
+	justify-content: space-around;
+}
+.fnav input{
+	width: 300px;
+	height: 27px;
+	border-radius: 3px;
+	text-align: center;
+    border: 2px solid gray;
+    margin-top: 16px;
+
+}
+.fnav p{
+	margin:17px;
+	font-size: 17px;
+}
+.snav{
+	display: flex;
+	/* justify-content: center; */
+	justify-content: space-around;
+	padding: 11px;
+	background: rgba(218,213,213);
+	font-weight: 800;
+    
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+.snav a:hover{
+border-bottom: 2px solid rgb(13,13,46);
+color: rgb(13,13,46);
+cursor: pointer;
+
+}
+.snav img{
+	width: 5%;
+}
+
+.store-section {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.store-section h1 {
+  font-size: 36px;
+  font-weight: 600;
+  color: #00164f;
+}
+
+.store-section h1 span {
+  display: block;
+  font-size: 48px;
+  margin-top: 10px;
+}
+
+.store-section p {
+  font-size: 18px;
+  color: #1c1c1c;
+  margin: 20px auto 30px;
+  line-height: 1.6;
+}
+
+.store-button {
+  border: 2px solid #00164f;
+  background-color: transparent;
+  padding: 10px 30px;
+  font-size: 16px;
+  border-radius: 30px;
+  cursor: pointer;
+  color: #00164f;
+  transition: all 0.3s ease;
+}
+
+.store-button:hover {
+  background-color: #00164f;
+  color: white;
+}
+
+.city-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  gap: 40px;
+  
+}
+
+.city {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.city img {
+  width: 100px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.city p {
+  font-weight: bold;
+  color: #00164f;
+}
+
+ .footer{
+display: flex;
+/* justify-content: center; */
+justify-content: space-around;
+background-color: rgb(26, 26, 84);
+color: white;
+padding: 33px;
+}
+
+.footer .list ul li{
+	list-style: none;
+	text-align: center;
+
+}
+.footer a {
+	color: #ccc;
+	text-decoration: none;
+}
+.footer a:hover {
+	text-decoration: underline ;
+	color: white;
+	cursor: pointer;
+}
